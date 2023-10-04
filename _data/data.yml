@@ -8,168 +8,118 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Martin Franson
+    tagline: Senior BI-arkitekt
+    avatar: martin.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: martin.franson@ryx.se
+    phone: 0703-38 83 24
+    timezone: # America/Cancun Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: #blog.webjeda.com #do not add http://
+    linkedin: martinfranson
+    xing: # alandoe
+    github: martinryx
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: #'@webjeda'
+    stack-overflow: 660405/tech # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: #http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
-          level: Native
+        - idiom: Svenska
+          level: Modersmål
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Engelska
+          level: Flytande
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: # Climbing
           link:
 
-        - item: Snowboarding
+        - item: # Snowboarding
           link:
 
-        - item: Cooking
+        - item: # Cooking
           link:
 
 career-profile:
-    title: Career Profile
+    title: Martin Franson
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Martin är en snabbtänkt och positiv person som gillar problemlösning, användarvänlighet och att dela med 
+      sig av sina kunskaper. Han sätter sig snabbt in i nya tekniker och projekt och går alltid in i ett problem 
+      med inställningen att ingenting är omöjligt. Har ibland beskrivits som "onödigt positiv" och "en datanörd som
+      går att umgås med".
+      Efter mer än 20 år som konsult har Martin skaffat sig gedigen kunskap och erfarenhet i allt från kravinsamling 
+      och verksamhetsförståelse till att omsätta kravställarens behov till lättanvända och fungerande lösningar.
+      Martin har stor erfarenhet av arbete i många olika typer av branscher och organisationer, från multinationella 
+      företag till mindre uppstartsföretag, från processindustri till utbildningföretag, bank- och försäkringsbranschen, 
+      transportsektorn, kommuner och statliga verk.
+      Genom denna bredd har Martin lärt sig anpassa sig till många olika verksamheter och utveckla sitt arbetssätt 
+      utifrån dessa. De allra flesta projekt har innefattat allt från analys, tidsuppskattning, planering, utveckling, 
+      test och leverans av önskad funktionalitet.
+      Martin har inga problem att varken leda andra i utvecklingen eller att driva arbetet självständigt.
+
 education:
-    title: Education
+    title: Utbildning
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: # MSc in Computer Science
+        university: Kungliga Tekniska Högskolan, KTH
+        time: 2009 - 2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Diverse databasrelaterade kurser
+      - degree: # BSc in Applied Mathematics
+        university: Linköpings universitet, LiTH
+        time: 2000 
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Diverse matematik- och fysikkurser
 
 experiences:
-    title: Experiences
+    title: Anställningar
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Ägare och specialist inom Business Intelligence
+        time: 2011 - dd
+        company: Ryx AB, Kolmården / Norrköping
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+
+      - role: Specialist inom Business Intelligence
+        time: 2007 - 2011
+        company: Gaia System AB, Norrköping
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          
+      - role: Systemutvecklare och databasarkitekt
+        time: 2001 - 2007
+        company: Gaia System AB, Norrköping
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 certifications:
-      title: Certifications
+      title: Certifieringar
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
+        - name: Designing and Implementing Databases with Microsoft® SQL Server™ 2000 Enterprise Edition
+          start: 2006-10-04
+          end: 
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          credentialid: 70-229
+          credentialurl: # www.google.com
+          credentialname: # Google
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+            
+        - name: Installing, Configuring, and Administering Microsoft® SQL Server™ 2000 Enterprise Edition
+          start: 2004-12-22
           end:
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          credentialid: 70-228
+          credentialurl: # www.github.com
+          credentialname: # Github
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
@@ -178,8 +128,8 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
+      - title: Sjöfartsverket (2017-dd)
+        link: #"#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       - title: DevStudio
@@ -207,7 +157,12 @@ oss:
     contributions:
       - title: Tempo
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Martin förstärker Sjöfartsverkets egna BI-avdelning med specialistkunskaper inom Microsofts BI-plattform. 
+            Martin utnyttjas ofta för svårare lösningar då han är väldigt bra på problemlösning och att omsätta verksamhetens 
+            önskemål i en fungerande lösning.
+            Martin har bland annat varit en drivande del i allt från lösningar för att simulera utfall vid olika lotsnings- 
+            och farledsavgifter, förbättring av systemstöd för Sjöfartsverkets budgetprocess, utveckling av automatiserade 
+            deploy-funktioner till mer vanlig BI i form av ekonomisk och annan uppföljning."
 
       - title: Atom
         link: "#"
