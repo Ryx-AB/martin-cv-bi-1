@@ -40,12 +40,12 @@ sidebar:
           level: Flytande
 
     interests:
-      title: Interests
+      title: Intressen
       info:
-        - item: # Climbing
+        - item: MTB
           link:
 
-        - item: # Snowboarding
+        - item: Löpning
           link:
 
         - item: # Cooking
@@ -58,14 +58,17 @@ career-profile:
       sig av sina kunskaper. Han sätter sig snabbt in i nya tekniker och projekt och går alltid in i ett problem 
       med inställningen att ingenting är omöjligt. Har ibland beskrivits som "onödigt positiv" och "en datanörd som
       går att umgås med".
+      
       Efter mer än 20 år som konsult har Martin skaffat sig gedigen kunskap och erfarenhet i allt från kravinsamling 
       och verksamhetsförståelse till att omsätta kravställarens behov till lättanvända och fungerande lösningar.
       Martin har stor erfarenhet av arbete i många olika typer av branscher och organisationer, från multinationella 
       företag till mindre uppstartsföretag, från processindustri till utbildningföretag, bank- och försäkringsbranschen, 
       transportsektorn, kommuner och statliga verk.
+      
       Genom denna bredd har Martin lärt sig anpassa sig till många olika verksamheter och utveckla sitt arbetssätt 
       utifrån dessa. De allra flesta projekt har innefattat allt från analys, tidsuppskattning, planering, utveckling, 
       test och leverans av önskad funktionalitet.
+      
       Martin har inga problem att varken leda andra i utvecklingen eller att driva arbetet självständigt.
 
 education:
@@ -130,7 +133,20 @@ projects:
     assignments:
       - title: Sjöfartsverket (2017-dd)
         link: #"#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: |
+            Martin förstärker Sjöfartsverkets egna BI-avdelning med specialistkunskaper inom Microsofts BI-plattform. 
+            Martin utnyttjas ofta för svårare lösningar då han är väldigt bra på problemlösning och att omsätta verksamhetens 
+            önskemål i en fungerande lösning.
+            Martin har bland annat varit en drivande del i allt från lösningar för att simulera utfall vid olika lotsnings- 
+            och farledsavgifter, förbättring av systemstöd för Sjöfartsverkets budgetprocess, utveckling av automatiserade 
+            deploy-funktioner till mer vanlig BI i form av ekonomisk och annan uppföljning.
+        subs:
+            - title: Roller
+              info: System- och databasarikitekt, Utvecklare
+
+            - title: Tekniker / Produkter
+              info: MS SQL Server, MS Integration Services, MS Reporting Services, C#, T-SQL, MS Analysis Services (SSAS),
+Power BI, Microsoft Sharepoint, Microsoft DevOps, Microsoft VB for Applications, BIML
 
       - title: DevStudio
         link: "#"
@@ -157,12 +173,7 @@ oss:
     contributions:
       - title: Tempo
         link: "#"
-        tagline: "Martin förstärker Sjöfartsverkets egna BI-avdelning med specialistkunskaper inom Microsofts BI-plattform. 
-            Martin utnyttjas ofta för svårare lösningar då han är väldigt bra på problemlösning och att omsätta verksamhetens 
-            önskemål i en fungerande lösning.
-            Martin har bland annat varit en drivande del i allt från lösningar för att simulera utfall vid olika lotsnings- 
-            och farledsavgifter, förbättring av systemstöd för Sjöfartsverkets budgetprocess, utveckling av automatiserade 
-            deploy-funktioner till mer vanlig BI i form av ekonomisk och annan uppföljning."
+        tagline: ""
 
       - title: Atom
         link: "#"
