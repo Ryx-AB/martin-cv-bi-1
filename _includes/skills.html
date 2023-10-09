@@ -27,5 +27,19 @@
 
   </div>
 
+  <div class="skill-groups">
+	{% for skill-group in skills.skill-groups %}
+		<div class="skill-group">
+			<span class="skill-group-title cols-xs-12">{{ skill-group.name }}</span>
+			<span class="skill-group-items col-xs-12">
+				{% for skill in skill-group.items %}
+					<span class="skill col-xs-6 col-md-4"><span class="glyphicon glyphicon-ok"></span> {{ skill.name }}</span>
+				{% endfor %}
+			</span>
+		</div>
+	{% endfor %}
+
+  </div>
+
 </section><!--//skills-section-->
 {% endif %}

@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -127,9 +127,15 @@ certifications:
 projects:
     title: Exempel på kunduppdrag
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Detta är ett urval av de kunduppdrag Martin haft genom åren.
+    post: |
+      Utöver ovanstående kunder har Martin haft nöjet att samarbeta i projekt med
+      Aromatic, Axelssons, Billerud, CEI Europé, Ericsson Telecom, Freudenberg Household Products, Gaia
+      System (vidareutveckling av applikation för tidsrapportering samt BI-lösning för projektuppföljning),
+      Gudrun Sjödén, Hyresbostäder i Norrköping, Insera, Linköpings Universitet, Nordic Station, Norrköping kommun,
+      Plantagen, Statens väg- och transportforskningsinstitut, Sven-Axel Svensson Bijouterier, Swedbank, Vitamex och
+      Österströms rederi
+
     assignments:
       - title: Sjöfartsverket (2017-dd)
         link: #"#hook"
@@ -146,86 +152,272 @@ projects:
 
             - title: Tekniker / Produkter
               info: MS SQL Server, MS Integration Services, MS Reporting Services, C#, T-SQL, MS Analysis Services (SSAS),
-Power BI, Microsoft Sharepoint, Microsoft DevOps, Microsoft VB for Applications, BIML
+                Power BI, Microsoft Sharepoint, Microsoft DevOps, Microsoft VB for Applications, BIML, MDX, PowerShell
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Diploma Group i Sverige AB / Diploma Utbildning (2015-dd)
+        tagline: |
+            Martin har agerat utvecklingschef med ansvar för ledning, planering och vidareutveckling av sajterna
+            diplomautbildning.se och föredrag.se. Det har innefattat både verksamhetsanalys, ledning och utbild
+            ning av övriga utvecklare, planering och genomförande av förändringar och mycket kontakt med kunder
+            och leverantörer.
+        subs:
+        - title: Roller
+          info: Verksamhets- och databasarkitekt, utvecklingschef, utvecklare, projektledare
+        - title: Tekniker / produkter
+          info: MySQL, PHP, HTML, CSS, jQuery, Bootstrap, AngularJS, MariaDB, Microsoft DevOps
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Millnet B I AB / Nacka kommun (2014, 2016-dd)
+        tagline: |
+            Vid framtagandet och vidareutveckling av ett nytt system för jämförande av anordnare av verksamhet
+            inom Nacka kommun agerade Martin underkonsult åt Millnet B I. Verktyget ger kommuninvånare möjlighet 
+            att jämföra leverantörer inom t ex vård och omsorg, förskola, familjerådgivning mm utifrån givna
+            parametrar. Martin har ansvarat för utveckling och design och att kundens önskemål tas tillvara på bästa
+            möjliga sätt.
+        subs:
+        - title: Roller
+          info: Arkitekt och utvecklare
+        - title: Tekniker / produkter
+          info: MS SQL Server 2014-2019, HTML, CSS, MS MVC, AngularJS, MS C#.NET, Power BI
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Wasa Kredit AB (2015-2016)
+        tagline: |
+            Förstärkning av Wasa Kredits BI-team vid framtagande av Wasa Kredits nya beslutstödsplattform / BI-portal. Arbetet innebar utveckling och testning av hämtningar från Wasa Kredits Master Data-plattform samt rekommendationer kring best practices.
+            Martin har även vidareutvecklat de rutiner för avidentifiering av data som bank- och finanssfären har som krav från t ex Finansinspektionen.
+        subs:
+        - title: Roller
+          info: Databas-designer, utvecklare
+        - title: Tekniker / produkter
+          info: MS SQL Server 2014, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), MDX
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Kunskapsskolan i Sverige AB (2009 - 2016)
+        tagline: |
+            Genomförande av flertalet projekt innefattande t ex förstudie och behovsanalys för framtida beslutsstödsplattform, design, utveckling och test av beslutsstödsplattform, löpande integrationer av verksamhetssystem mm. Integration med bl a Agresso, Easy Research, ProCapita samt Kunskapsskolans egna Elevdokumentationssystem, EDS. Samtliga projekt har drivits agilt
+        subs:
+        - title: Roller
+          info: BI-arkitekt, databas-designer, utvecklare, teknisk expert SQL Server, projektledare mm.
+        - title: Tekniker / produkter
+          info: MS SQL Server 2008, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), jQuery, MDX, BIML, MS C#.NET mm
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: ""
+      - title: Luftfartsstyrelsen / Transportstyrelsen (2003 - 2015)
+        tagline: |
+            Utveckling och underhåll / support av myndighetens register för hantering av inskrivningar av luftfartyg (LFIR). Arbetet innefattade implementation av omfattande lagkrav och integrationer med ett flertal system.
+        subs:
+        - title: Roller
+          info: Utvecklare, databasarkitekt, utvecklingsledare, kundansvarig
+        - title: Teknisk plattform
+          info: Microsoft SQL Server 2000, Microsoft SQL Server 2014, Microsoft VB.NET (.NET Framework 2.0 - 4.5)
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Toyota Material Handling Europe (2012 - 2013)
+        tagline: |
+            Utveckling av dynamisk webbaserad master data-hanterare för Toyotas Business Intelligence-plattform.
+        subs:
+        - title: Roller
+          info: Databas-designer, utvecklare
+        - title: Tekniker
+          info: MS SQL Server 2012, MS MVC, jQuery, MS C#.NET
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Wasa Kredit AB (2008 - 2013)
+        tagline: |
+            Teknisk specialist på SQL Server. Martin har arbetat som tekniskt bollplank åt Wasa Kredits avdelning för uppföljning och analys. Arbetet omfattar design av, optimering av och rekommendationer kring vidareutveckling av befintligt datalager samt vidareutveckling av detsamma.
+        subs:
+        - title: Roller
+          info: BI-arkitekt, databas-designer, utvecklare, specialist / rådgivare SQL Server
+        - title: Tekniker / produkter
+          info: MS SQL Server 2008R2-2012, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), MDX
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Returpack AB (2008 - 2009)
+        tagline: |
+            Datalager för uppföljning och analys av pantning av burkar och flaskor i Sverige. Utvecklare, designer och
+            teknisk specialist SQL Server. Projektet genomfördes enligt agil metodik. Designen för datalagret hade
+            Kimballs modell som förlaga.
+        subs:
+        - title: Roller
+          info: BI-arkitekt, databas-designer, utvecklare, projektledare
+        - title: Tekniker / produkter
+          info: MS SQL Server, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), MDX
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Sjöfartsverket (2008 - 2009)
+        tagline: |
+            Utveckling av rapporter för verksamhetsuppföljning
+        subs:
+        - title: Teknisk plattform
+          info: Microsoft SQL Server 2005, Reporting Services 2005, Teknisk specialist på SQL Server Reporting Services. Rekommendationer kring framtagning av statistikplattform.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Luftfartsverket (2003 - 2009)
+        tagline: Webbaserad applikation för registrering av färdplaner för privatflyget inom hela Sverige.
+        subs:
+          - title: Roller
+            info: Utvecklare
+          - title: Teknisk plattform
+            info: Microsoft SQL Server 2000, Visual Basic, ASP, JavaScript
+
+      - title: Luftfartsstyrelsen / Transportstyrelsen (2008)
+        tagline: |
+            Framtagning av beslutsstödsplattform samt uveckling av datalager för uppföljning och analys av passagerares rörelser genom Sverige. Utvecklare, designer och utvecklingsledare. Lösningen designades enligt
+            Kimballs modell för datalager. Projektet genomfördes enligt ett agilt tänk med ett flertal iterationer för
+            att projektdeltagare från verksamheten tidigt skulle få möjlighet att testa små delar och därför lättare
+            kunna styra den vidare utvecklingen.
+        subs:
+        - title: Roller
+          info: BI-arkitekt, databas-designer, utvecklare
+        - title: Tekniker / produkter
+          info: MS SQL Server, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), MDX
+
+      - title: HTC Sweden AB (2007 - 2009)
+        tagline: |
+            Datalager för uppföljning och analys av HTCs försäljning i Sverige, USA, Tyskland m fl länder. Integration
+            mot Microsoft Navision. Designen byggde på Kimballs modell för datalager.
+        subs:
+        - title: Roller
+          info: Databas- och beslutsstödsdesigner, projektledare, teknisk expert SQL Server, utvecklare
+        - title: Tekniker / produkter
+          info: MS SQL Server, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), MDX
+
+      - title: Tage Rejmes Bil AB (2007 - 2009)
+        tagline: |
+            Datalager för uppföljning och analys av försäljning av reservdelar för bilar.
+        subs:
+        - title: Roller
+          info: Utvecklare.
+        - title: Teknisk plattform
+          info: Microsoft SQL Server 2008, Microsoft SQL Server Analysis Services 2008, Microsoft SQL Server Reporting Services 2008
+
+      - title: Stadium AB (2003 - 2007)
+        tagline: |
+            Datalager för analys och uppföljning av försäljning i Stadiums butiker i Sverige, Finland och Danmark.
+        subs:
+        - title: Roller
+          info: Utvecklare
+        - title: Teknisk plattform
+          info: Microsoft SQL Server 2000, Microsoft Analysis Services 2000, Oracle, Microsoft SQL Server Reporting Services 2000, MDX
+
+      - title: Luftfartsverket (2003 - 2004)
+        tagline: |
+            Datalager för uppföljning av ekonomiska transaktioner inom Luftfartsverket.
+        subs:
+        - title: Roller
+          info: Utvecklare och databasarkitekt.
+        - title: Teknisk plattform
+          info: Microsoft SQL Server 2000, Microsoft Analysis Services 2000
+
+
+
+
+
+
+
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: ""
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Tekniska kompetensområden
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+    skill-groups:
+      - name: Utvecklingsspråk
+        items: 
+          - name: Microsoft C# .NET
+          - name: Transact SQL
+          - name: PowerShell
+          - name: Microsoft VB.NET
+          - name: PHP
+          - name: JavaScript
+          - name: PERL
+      - name: Databaser
+        items:
+          - name: Microsoft SQL Server 6.5 - 2019
+          - name: MariaDB
+          - name: MySQL
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Utvecklingsverktyg
+        items: 
+          - name: Microsoft Visual Studio Code 
+          - name: Microsoft Visual Studio 
+          - name: Microsoft Data Tools 
+          - name: Emacs
+          - name: Eclipse 
+          - name: Microsoft DevOps
+          - name: Github
+          - name: Git
 
-      - name: Angular
-        level: 98%
+      - name: Datawarehousing
+        items:
+          - name: Microsoft Analysis Services (SSAS) 
+          - name: MDX 
+          - name: BIML
+          - name: Microsoft Reporting Services (SSRS)
+          - name: Microsoft Integration Services (SSIS)
+          - name: Power BI 
+          - name: Microsoft DTS (föregångaren till SSIS)
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Webbteknik
+        items: 
+          - name: Microsoft IIS 
+          - name: HTML / HTML5 
+          - name: WEB API
+          - name: CSS 
+          - name: Bootstrap 
+          - name: Microsoft MVC
+          - name: jQuery / jQueryUI 
+          - name: AngularJS 
 
-      - name: Ruby on Rails
-        level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    # toolset:
+    #   - name: Python & Django
+    #     level: 98%
+
+    #   - name: Javascript & jQuery
+    #     level: 98%
+
+    #   - name: Angular
+    #     level: 98%
+
+    #   - name: HTML5 & CSS
+    #     level: 95%
+
+    #   - name: Ruby on Rails
+    #     level: 85%
+
+    #   - name: Sketch & Photoshop
+    #     level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

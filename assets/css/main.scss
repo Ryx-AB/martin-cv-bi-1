@@ -16,3 +16,46 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+.projects-section {
+	.project-title {
+		padding-top: 10px;
+		.project-counter {
+			font-size: smaller;
+			font-weight: normal;
+			color: darkgrey;
+		}
+	}
+	.item {
+		.project-subs {
+			.project-sub-title {
+				font-weight: bold;
+				padding-top: 10px;
+			}
+
+			.project-sub-info {
+
+			}
+		}
+	}
+	.post {
+		margin-top: 10px;
+	}
+}
+
+.skill-groups {
+	.skill-group {
+		margin-top: 5px;
+		.skill-group-title {
+			font-weight: bold;
+		}
+		.skill-group-items {
+			padding-left: 0px;
+			padding-right: 0px;
+			.skill {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+		}
+	}
+}

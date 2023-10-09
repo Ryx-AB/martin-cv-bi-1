@@ -19,28 +19,35 @@
   {% for project in projects.assignments %}
     <div class="item">
 
-      <span class="project-title">
+      <div class="project-title">
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %}
-        {{ project.title }}
+        {{ project.title }} <span class="project-counter">#{{ forloop.index }}</span>
         {% endif %}
-      </span>
+      </div>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <span class="project-tagline">{{ project.tagline | markdownify }}</span>
       {% endif %}
 
       {% if project.subs %}
         <div class="project-subs">
         {% for sub in project.subs %}
-          <div class="project-sub-title">{{ sub.title }}</div>
-          <span class="project-sub-info">{{ sub.info }}</span>
+			<div>
+			<span class="project-sub-title">{{ sub.title }}:</span>
+			<span class="project-sub-info">{{ sub.info }}</span>
+			</div>
         {% endfor %}
       {% endif %}
 
     </div><!--//item-->
   {% endfor %}
 
+  {% if projects.post %}
+  <div class="intro post">
+      <p>{{ projects.post }}</p>
+  </div><!--//post-->
+  {% endif %}
 </section><!--//section-->
 {% endif %}
