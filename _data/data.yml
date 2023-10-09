@@ -148,13 +148,13 @@ projects:
             önskemål i en fungerande lösning.
             Martin har bland annat varit en drivande del i allt från lösningar för att simulera utfall vid olika lotsnings- 
             och farledsavgifter, förbättring av systemstöd för Sjöfartsverkets budgetprocess, utveckling av automatiserade 
-            deploy-funktioner till mer vanlig BI i form av ekonomisk och annan uppföljning.
+            deploy-funktioner m h a PowerShell till mer vanlig BI i form av ekonomisk och annan uppföljning.
         subs:
             - title: Roller
               info: System- och databasarikitekt, Utvecklare
 
             - title: Tekniker / Produkter
-              info: MS SQL Server, MS Integration Services, MS Reporting Services, C#, T-SQL, MS Analysis Services (SSAS),
+              info: MS SQL Server, MS Integration Services (SSIS), MS Reporting Services (SSRS), C#, T-SQL, MS Analysis Services (SSAS),
                 Power BI, Microsoft Sharepoint, Microsoft DevOps, Microsoft VB for Applications, BIML, MDX, PowerShell
 
       - title: Diploma Group i Sverige AB / Diploma Utbildning (2015-dd)
@@ -199,7 +199,7 @@ projects:
         - title: Roller
           info: BI-arkitekt, databas-designer, utvecklare, teknisk expert SQL Server, projektledare mm.
         - title: Tekniker / produkter
-          info: MS SQL Server 2008, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), jQuery, MDX, BIML, MS C#.NET mm
+          info: MS SQL Server 2008-2012, MS Integration Services (SSIS), MS Reporting Services (SSRS), MS Analysis Services (SSAS), jQuery, MDX, BIML, MS C#.NET mm
 
       - title: Luftfartsstyrelsen / Transportstyrelsen (2003 - 2015)
         tagline: |
@@ -208,7 +208,7 @@ projects:
         - title: Roller
           info: Utvecklare, databasarkitekt, utvecklingsledare, kundansvarig
         - title: Teknisk plattform
-          info: Microsoft SQL Server 2000, Microsoft SQL Server 2014, Microsoft VB.NET (.NET Framework 2.0 - 4.5)
+          info: Microsoft SQL Server 2000, Microsoft SQL Server 2014, Microsoft VB.NET (.NET Framework 2.0 - 4.5), Microsoft Reporting Services 2000 (SSRS)
 
       - title: Toyota Material Handling Europe (2012 - 2013)
         tagline: |
@@ -283,7 +283,7 @@ projects:
         - title: Roller
           info: Utvecklare.
         - title: Teknisk plattform
-          info: Microsoft SQL Server 2008, Microsoft SQL Server Analysis Services 2008, Microsoft SQL Server Reporting Services 2008
+          info: Microsoft SQL Server 2008, Microsoft SQL Server Analysis Services 2008 (SSAS), Microsoft SQL Server Reporting Services 2008 (SSRS)
 
       - title: Stadium AB (2003 - 2007)
         tagline: |
@@ -292,7 +292,7 @@ projects:
         - title: Roller
           info: Utvecklare
         - title: Teknisk plattform
-          info: Microsoft SQL Server 2000, Microsoft Analysis Services 2000, Oracle, Microsoft SQL Server Reporting Services 2000, MDX
+          info: Microsoft SQL Server 2000, Microsoft Analysis Services 2000 (SSAS), Oracle, Microsoft SQL Server Reporting Services 2000 (SSRS), MDX
 
       - title: Luftfartsverket (2003 - 2004)
         tagline: |
@@ -301,7 +301,7 @@ projects:
         - title: Roller
           info: Utvecklare och databasarkitekt.
         - title: Teknisk plattform
-          info: Microsoft SQL Server 2000, Microsoft Analysis Services 2000
+          info: Microsoft SQL Server 2000, Microsoft Analysis Services 2000 (SSAS)
 
 
 
